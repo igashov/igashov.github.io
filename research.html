@@ -68,30 +68,10 @@
 
         <div class="row">
             <div class="col-md-8">
-                <h3>Spherical convolutions on molecular graphs for protein model quality assessment</h3>
-                <h4><b>I. Igashov</b>, N. Pavlichenko, S. Grudinin. arXiv: 2011.07980 (in revision at Machine Learning: Science and Technology), 2020.</h4> <h4 style="color:red;">Spotlight</h4>
-                <p>
-                    Processing information on 3D objects requires methods stable to rigid-body transformations, in particular rotations, of the input data. In image processing tasks, convolutional neural networks achieve this property using rotation-equivariant operations. However, contrary to images, graphs generally have irregular topology. This makes it challenging to define a rotation-equivariant convolution operation on these structures. In this work, we propose Spherical Graph Convolutional Network (S-GCN) that processes 3D models of proteins represented as molecular graphs. In a protein molecule, individual amino acids have common topological elements. This allows us to unambiguously associate each amino acid with a local coordinate system and construct rotation-equivariant spherical filters that operate on angular information between graph nodes. Within the framework of the protein model quality assessment problem, we demonstrate that the proposed spherical convolution method significantly improves the quality of model assessment compared to the standard message-passing approach. It is also comparable to state-of-the-art methods, as we demonstrate on Critical Assessment of Structure Prediction (CASP) benchmarks. The proposed technique operates only on geometric features of protein 3D models. This makes it universal and applicable to any other geometric-learning task where the graph structure allows constructing local coordinate systems.
-                </p>
-                <a class="btn btn-primary" href="https://team.inria.fr/nano-d/software/s-gcn/">Project Page <span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a class="btn btn-primary" href="https://gitlab.inria.fr/GruLab/s-gcn">GitLab <span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a class="btn btn-primary" href="https://arxiv.org/pdf/2011.07980.pdf">Paper <span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a class="btn btn-primary" href="docs/sgcn_poster.pdf">Poster <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-            <div class="col-md-4">
-                <br>
-                <br>
-                <br>
-                <img class="img-responsive" width="100%" height="100%" src="images/sgcn.png" alt="">
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="row">
-            <div class="col-md-8">
                 <h3>VoroCNN: Deep convolutional neural network built on 3D Voronoi tessellation of protein structures</h3>
-                <h4><b>I. Igashov</b>, K. Olechnovič, M. Kadukova, Č. Venclovas, S. Grudinin. bioRxiv doi: 2020.04.27.063586 (accepted at Bioinformatics), 2020.</h4> <h4 style="color:red;">Spotlight</h4>
+                <h4><b>I. Igashov</b>, K. Olechnovič, M. Kadukova, Č. Venclovas, S. Grudinin. Bioinformatics, 2021.</h4>
+                <h4><a href="https://doi.org/10.1093/bioinformatics/btab118">https://doi.org/10.1093/bioinformatics/btab118</a><h4>
+                <h4 style="color:red;">Spotlight</h4>
                 <p>
                     <b>Motivation:</b> Effective use of evolutionary information has recently led to tremendous progress in computational prediction of three-dimensional (3D) structures of proteins and their complexes. Despite the progress, the accuracy of predicted structures tends to vary considerably from case to case. Since the utility of computational models depends on their accuracy, reliable estimates of deviation between predicted and native structures are of utmost importance.
                 </p>
@@ -108,6 +88,28 @@
                 <br>
                 <br>
                 <img class="img-responsive" width="100%" height="100%" src="images/vorocnn.png" alt="">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Spherical convolutions on molecular graphs for protein model quality assessment</h3>
+                <h4><b>I. Igashov</b>, N. Pavlichenko, S. Grudinin. arXiv: 2011.07980 (accepted at Machine Learning: Science and Technology), 2020.</h4> <h4 style="color:red;">Spotlight</h4>
+                <p>
+                    Processing information on 3D objects requires methods stable to rigid-body transformations, in particular rotations, of the input data. In image processing tasks, convolutional neural networks achieve this property using rotation-equivariant operations. However, contrary to images, graphs generally have irregular topology. This makes it challenging to define a rotation-equivariant convolution operation on these structures. In this work, we propose Spherical Graph Convolutional Network (S-GCN) that processes 3D models of proteins represented as molecular graphs. In a protein molecule, individual amino acids have common topological elements. This allows us to unambiguously associate each amino acid with a local coordinate system and construct rotation-equivariant spherical filters that operate on angular information between graph nodes. Within the framework of the protein model quality assessment problem, we demonstrate that the proposed spherical convolution method significantly improves the quality of model assessment compared to the standard message-passing approach. It is also comparable to state-of-the-art methods, as we demonstrate on Critical Assessment of Structure Prediction (CASP) benchmarks. The proposed technique operates only on geometric features of protein 3D models. This makes it universal and applicable to any other geometric-learning task where the graph structure allows constructing local coordinate systems.
+                </p>
+                <a class="btn btn-primary" href="https://team.inria.fr/nano-d/software/s-gcn/">Project Page <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="https://gitlab.inria.fr/GruLab/s-gcn">GitLab <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="https://arxiv.org/pdf/2011.07980.pdf">Paper <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="docs/sgcn_poster.pdf">Poster <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <br>
+                <img class="img-responsive" width="100%" height="100%" src="images/sgcn.png" alt="">
             </div>
         </div>
 
