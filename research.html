@@ -68,17 +68,44 @@
 
         <div class="row">
             <div class="col-md-8">
+                <h3 align="justify">Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design</h3>
+                <h4 align="justify"><b>I. Igashov</b>, H. Stärk, C. Vignac, V. Satorras, P. Frossard, M. Welling, M. Bronstein, B. Correia
+ </h4>
+                <h5>Under Review (2022)</h5>
+<!--                <h4><a href=""></a></h4>-->
+<!--                <h4 style="color:red;">Spotlight</h4>-->
+                <p align="justify">
+                    Fragment-based drug discovery has been an effective paradigm in early-stage drug development. An open challenge in this area is designing linkers between disconnected molecular fragments of interest to obtain chemically-relevant candidate drug molecules. In this work, we propose DiffLinker, an E(3)-equivariant 3D-conditional diffusion model for molecular linker design. Given a set of disconnected fragments, our model places missing atoms in between and designs a molecule incorporating all the initial fragments. Unlike previous approaches that are only able to connect pairs of molecular fragments, our method can link an arbitrary number of fragments. Additionally, the model automatically determines the number of atoms in the linker and its attachment points to the input fragments. We demonstrate that DiffLinker outperforms other methods on the standard datasets generating more diverse and synthetically-accessible molecules. Besides, we experimentally test our method in real-world applications, showing that it can successfully generate valid linkers conditioned on target protein pockets.
+                </p>
+<!--                <a class="btn btn-primary" href="https://team.inria.fr/nano-d/software/vorocnn/">Project Page <span class="glyphicon glyphicon-chevron-right"></span></a>-->
+<!--                <a class="btn btn-primary" href="https://gitlab.inria.fr/grudinin/vorocnn">GitLab <span class="glyphicon glyphicon-chevron-right"></span></a>-->
+                <a class="btn btn-primary" href="https://arxiv.org/abs/2210.05274">Paper <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="https://github.com/igashov/DiffLinker">Code <span class="glyphicon glyphicon-chevron-right"></span></a>
+<!--                <a class="btn btn-primary" href="docs/vorocnn_poster.pdf">Poster <span class="glyphicon glyphicon-chevron-right"></span></a>-->
+            </div>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <br>
+                <img class="img-responsive" width="80%" height="100%" src="images/difflinker.gif" alt="">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8">
                 <h3 align="justify">Decoding Surface Fingerprints for Protein-Ligand Interactions</h3>
                 <h4 align="justify"><b>I. Igashov</b>, A. Jamasb, A. Sadek, F. Sverrisson, A. Schneuing, T. Blundell, P. Liò, M. Bronstein, B. Correia </h4>
                 <h5>MLDD workshop, ICLR 2022</h5>
 <!--                <h4><a href=""></a></h4>-->
 <!--                <h4 style="color:red;">Spotlight</h4>-->
                 <p align="justify">
-                    Small molecules have been the preferred modality for drug development and therapeutic interventions. This molecular format presents a number of advantages, e.g. long half-lives and cell permeability, making it possible to access a wide range of therapeutic targets. However, finding small molecules that engage “hard-to-drug” protein targets specifically and potently remains an arduous process, requiring experimental screening of extensive compound libraries to identify candidate leads. The search continues with further optimization of compound leads to meet the required potency and toxicity thresholds for clinical applications. Here, we propose a new computational workflow for high-throughput fragment-based screening and binding affinity prediction where we leverage the available protein-ligand complex structures using a state-of-the-art protein surface embedding framework (dMaSIF). We developed a tool capable of finding suitable ligands and fragments for a given protein pocket solely based on protein surface descriptors, that capture chemical and geometric features of the target pocket. The identified fragments can be further combined into novel ligands. Using the structural data, our ligand discovery pipeline learns the signatures of interactions between surface patches and small pharmacophores. On a query target pocket, the algorithm matches known target pockets and returns either potential ligands or identifies multiple ligand fragments in the binding site. Our binding affinity predictor is capable of predicting the affinity of a given protein-ligand pair, requiring only limited information about the ligand pose. This enables screening without the costly step of first docking candidate molecules. Our framework will facilitate the design of ligands based on the target’s surface information. It may significantly reduce the experimental screening load and ultimately reveal novel chemical compounds for targeting challenging proteins.
+                    We propose a new computational workflow for high-throughput fragment-based screening and binding affinity prediction where we leverage the available protein-ligand complex structures using a state-of-the-art protein surface embedding framework (dMaSIF). We developed a tool capable of finding suitable ligands and fragments for a given protein pocket solely based on protein surface descriptors, that capture chemical and geometric features of the target pocket. The identified fragments can be further combined into novel ligands. Using the structural data, our ligand discovery pipeline learns the signatures of interactions between surface patches and small pharmacophores. On a query target pocket, the algorithm matches known target pockets and returns either potential ligands or identifies multiple ligand fragments in the binding site. Our binding affinity predictor is capable of predicting the affinity of a given protein-ligand pair, requiring only limited information about the ligand pose. This enables screening without the costly step of first docking candidate molecules. Our framework will facilitate the design of ligands based on the target’s surface information. It may significantly reduce the experimental screening load and ultimately reveal novel chemical compounds for targeting challenging proteins.
                 </p>
 <!--                <a class="btn btn-primary" href="https://team.inria.fr/nano-d/software/vorocnn/">Project Page <span class="glyphicon glyphicon-chevron-right"></span></a>-->
 <!--                <a class="btn btn-primary" href="https://gitlab.inria.fr/grudinin/vorocnn">GitLab <span class="glyphicon glyphicon-chevron-right"></span></a>-->
-                <a class="btn btn-primary" href="https://openreview.net/pdf?id=YRb9-uZ4noQ">Paper <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="https://www.biorxiv.org/content/10.1101/2022.04.26.489341v1">Paper <span class="glyphicon glyphicon-chevron-right"></span></a>
 <!--                <a class="btn btn-primary" href="docs/vorocnn_poster.pdf">Poster <span class="glyphicon glyphicon-chevron-right"></span></a>-->
             </div>
             <div class="col-md-4">
