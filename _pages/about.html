@@ -1,0 +1,175 @@
+---
+permalink: /
+title: ""
+excerpt: "About me"
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="topbar">
+    <div class="container">
+        <div>
+      <div class="row mt-0">
+                <br>
+      </div>
+      <div class="row mt-0" style="padding-bottom: 5px;">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-0 pl-0 pl-sm-4 offset-xl-1 col-xl-7">
+                    <h1 class="hidden-xs-down"><span itemprop="name">Ilia Igashov</span></h1>
+                </div>
+      </div>
+      <div class="row mt-0" style="padding-bottom: 15px;">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-0 pl-0 pl-sm-4 offset-xl-1 col-xl-7" align="justify">
+                    <p>
+                        I am a second year PhD student at École Polytechnique Fédérale de Lausanne co-advised by <a href="https://people.epfl.ch/bruno.correia/?lang=enl">Prof. Bruno Correia</a> and <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/">Prof. Michael Bronstein</a>,
+                        and grateful to be a fellow of the <a href="https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflglobaleaders/">EPFLglobaLeaders</a> program.
+                        My research interests lie in geometric learning and its application in scientific domains such as biology and chemistry.
+                        I am especially focused on using geometric deep learning for protein-protein interactions and drug discovery.
+                    </p>
+
+                    <p>
+                        I earned my BS in Applied Mathematics and Physics, and my MS in Applied Mathematics and Computer Science from the Moscow Institute of Physics and Technology.
+                        Additionally, I completed the M2 program in Science in Industrial and Applied Mathematics (MSIAM) at Université Grenoble Alpes.
+                        Throughout my Master's studies, I had an opportunity to intern at <a href="https://team.inria.fr/nano-d/">Inria Rhône-Alpes</a>
+                        and <a href="https://www-ljk.imag.fr/">Laboratoire Jean Kuntzmann</a>,
+                        where I was working with <a href="https://team.inria.fr/nano-d/team-members/sergei-grudinin/">Dr. Sergei Grudinin</a>.
+                        <br>
+                        <br>
+                        <a href="{{ base_path }}/assets/cv.pdf">Curriculum Vitae</a> <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<div class="row mb-3" style="padding-bottom: 25px;">
+
+  <div class="col-12 pt-3  px-4 pb-4   bubble offset-xl-1 col-xl-10" >
+
+  <!-- ####################### Publications ####################### -->
+  <h2>Publications</h2>
+
+  <!-- <h5 class="pt-2 pb-1">Computer Vision</h5> -->
+   <div class="publication media">
+      <img src="{{ base_path }}/images/difflinker.gif" class="publogo img-fluid float-left rounded g" width="200" <="" a="">
+      <div class="media-body">
+        <p>
+        <strong>
+        <a href="https://arxiv.org/abs/2210.05274">
+          Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design
+        </a>
+        </strong><br>
+          <u>Ilia Igashov</u>, Hannes Stärk, Clément Vignac, Victor Garcia Satorras, Pascal Frossard, Max Welling, Michael Bronstein, Bruno Correia<br>
+        <em>Under review</em>, 2023  <br>
+        <span class="links">
+          <a href="https://arxiv.org/abs/2210.05274">Paper</a>
+          <a href="https://github.com/igashov/DiffLinker">Code</a>
+          <a href="https://huggingface.co/spaces/igashov/DiffLinker">Hugging Face</a>
+        </span> <br> </p>
+      </div>
+    </div>
+
+    <div class="publication media">
+      <img src="{{ base_path }}/images/diffsbdd.gif" class="publogo img-fluid float-left rounded g" width="200" <="" a="">
+      <div class="media-body">
+        <p>
+        <strong>
+        <a href="https://arxiv.org/abs/2210.13695">
+          Structure-based Drug Design with Equivariant Diffusion Models
+        </a>
+        </strong><br>
+          Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, <u>Ilia Igashov</u>, Weitao Du, Tom Blundell, Pietro Lió, Carla Gomes, Max Welling, Michael Bronstein, Bruno Correia<br>
+        <em>Under review</em>, 2023  <br>
+        <span class="links">
+          <a href="https://arxiv.org/abs/2210.13695">Paper</a>
+          <a href="https://github.com/arneschneuing/DiffSBDD">Code</a>
+          <a href="https://colab.research.google.com/github/arneschneuing/DiffSBDD/blob/main/colab/DiffSBDD.ipynb">Google Colab</a>
+        </span> <br> </p>
+      </div>
+    </div><br>
+
+    <div class="publication media">
+      <img src="{{ base_path }}/images/fragmentscope.png" class="publogo img-fluid float-left rounded g" width="200" <="" a="">
+      <div class="media-body">
+        <p>
+        <strong>
+        <a href="https://www.biorxiv.org/content/10.1101/2022.04.26.489341v1">
+          Decoding Surface Fingerprints for Protein-Ligand Interactions
+        </a>
+        </strong><br>
+          <u>Ilia Igashov</u>, Arian R. Jamasb, Ahmed Sadek, Freyr Sverrisson, Arne Schneuing, Pietro Liò, Tom L. Blundell, Michael Bronstein, Bruno Correia<br>
+        <em>Machine Learning for Drug Discovery Workshop, ICLR</em>, 2022  <br>
+        <span class="links">
+          <a href="https://www.biorxiv.org/content/10.1101/2022.04.26.489341v1">Paper</a>
+        </span> <br> </p>
+      </div>
+    </div>
+
+    <div class="publication media">
+      <img src="{{ base_path }}/images/6dcnn.png" class="publogo img-fluid float-left rounded g" width="200" <="" a="">
+      <div class="media-body">
+        <p>
+        <strong>
+        <a href="https://arxiv.org/abs/2107.12078">
+          6DCNN with Roto-Translational Convolution Filters for Volumetric Data Processing
+        </a>
+        </strong><br>
+          Dmitrii Zhemchuzhnikov, <u>Ilia Igashov</u>, Sergei Grudinin<br>
+        <em>36th AAAI Conference on Artificial Intelligence</em>, 2022  <br>
+        <span class="links">
+          <a href="https://arxiv.org/abs/2107.12078">Paper</a>
+        </span> <br> </p>
+      </div>
+    </div>
+
+
+    <div class="publication media">
+      <img src="{{ base_path }}/images/vorocnn.png" class="publogo img-fluid float-left rounded g" width="200" <="" a="">
+      <div class="media-body">
+        <p>
+        <strong>
+        <a href="https://doi.org/10.1093/bioinformatics/btab118">
+          VoroCNN: Deep Convolutional Neural Network Built on 3D Voronoi Tessellation of Protein Structures
+        </a>
+        </strong><br>
+          <u>Ilia Igashov</u>, Kliment Olechnovič, Maria Kadukova, Česlovas Venclovas, Sergei Grudinin<br>
+        <em>Bioinformatics</em>, 2021  <br>
+        <span class="links">
+          <a href="https://doi.org/10.1093/bioinformatics/btab118">Paper</a>
+          <a href="https://gitlab.inria.fr/grudinin/vorocnn">Code</a>
+          <a href="https://team.inria.fr/nano-d/software/vorocnn/">Project Page</a>
+        </span> <br> </p>
+        <br>
+      </div>
+    </div>
+
+
+    <div class="publication media">
+      <img src="{{ base_path }}/images/sgcn.png" class="publogo img-fluid float-left rounded g" width="200" <="" a="">
+      <div class="media-body">
+        <p>
+        <strong>
+        <a href="https://doi.org/10.1088/2632-2153/abf856">
+          Spherical Convolutions on Molecular Graphs for Protein Model Quality Assessment
+        </a>
+        </strong><br>
+          <u>Ilia Igashov</u>, Nikita Pavlichenko, Sergei Grudinin<br>
+        <em>Machine Learning: Science and Technology</em>, 2021  <br>
+        <span class="links">
+          <a href="https://doi.org/10.1088/2632-2153/abf856">Paper</a>
+          <a href="https://gitlab.inria.fr/GruLab/s-gcn">Code</a>
+          <a href="https://team.inria.fr/nano-d/software/s-gcn/">Project Page</a>
+        </span> <br> </p>
+        <br>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- ############################################## -->
+
+
